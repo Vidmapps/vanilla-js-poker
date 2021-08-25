@@ -1,0 +1,176 @@
+body {
+    height: 530px;
+    font-family: 'Mada-Regular', sans-serif;
+    letter-spacing: 0.8px;
+    background-color: #f1f1f1;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #88c6f9;
+}
+
+.showCards {
+    display: inline;
+}
+
+.cursor-ponter {
+    cursor: pointer;
+}
+
+.primary-font-size {
+    font-size: 14px;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: inherit;
+    width: 200px;
+    border: none;
+}
+
+.active {
+    margin: 2px;
+    background-color: #fff;
+}
+
+.play-btn {
+    margin: 32px 80px;
+    height: 32px;
+    width: 98px;
+    color: #88c6f9;
+    background-color: #ddeffd;
+    border: none;
+}
+
+.container {
+    margin: 55px 34px 34px 34px;
+}
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.header {
+    margin-bottom: 6px;
+    font-size: 24px;
+}
+
+.sub-header {
+    margin-bottom: 21px;
+    color: #7e7e7e;
+}
+
+.tabs {
+    margin-bottom: 29px;
+    width: 524px;
+    height: 30px;
+    background-color: #d9d9d9;
+}
+
+.card {
+    width: 290px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.cards {
+    display: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.logo-container {
+    height: 154px;
+    text-align: center;
+    line-height: 142px;
+    border-radius: inherit;
+}
+
+.rating {
+    padding: 11px;
+}
+
+.rating-score {
+    padding: 4px;
+}
+
+.margin {
+    margin-top: 14px;
+}
+
+.display-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.casino-container {	
+    display: -webkit-box;	
+    display: -ms-flexbox;	
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 15px;
+    scroll-behavior: smooth;
+    overflow: auto;
+  }
+
+  /* TODO: make .arrow clickable to scroll */
+  .arrow {
+    position: absolute;
+    top: 320px;
+    right: 28px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 32px;
+    -webkit-box-shadow: 0 1px 0 0 rgb(85 85 85 / 50%);
+            box-shadow: 0 1px 0 0 rgb(85 85 85 / 50%);
+  }
+
+@media (max-width: 580px) {
+    .container {
+        margin: auto;
+    }
+    .overflow-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        overflow: auto;
+    }
+    .arrow {
+        display: none;
+    }
+  }
+  
+@font-face {
+    font-family: 'Mada-Regular';
+    src:url('Mada-Regular.ttf.woff') format('woff'),
+        url('Mada-Regular.ttf.svg#Mada-Regular') format('svg'),
+        url('Mada-Regular.ttf.eot'),
+        url('Mada-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
