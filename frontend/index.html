@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PokerNews</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="header center">New on PokerNews</div>
+                <div class="sub-header primary-font-size center">Discover what's new on PokerNews and enjoy the best new online casinos, bonuses and slots all in one place.</div>
+            </div>
+            <div class="overflow-flex center">
+                <nav class="tabs display-mobile display-desktop border-radius">
+                    <button class="btn border-radius cursor-ponter" id="casinos">Casinos</button>
+                    <button class="btn border-radius cursor-ponter" id="bonuses">Bonuses</button>
+                    <button class="btn border-radius cursor-ponter" id="slots">Slots</button>
+                </nav>
+            </div>
+            <div class="cards" id=cards>
+                <img class="arrow cursor-ponter" id="arrow" src="./assets/chevron_right_black_24dp.svg">
+                <div class="center casino-container" id="casino-container">
+                    <div class="card border-radius" id="casino-template">
+                        <div class="logo-container" id="background_color">
+                            <div class="logo" id="logo"></div>
+                        </div>
+                        <div>
+                            <div class="rating center primary-font-size">
+                                <img src="./assets/star.svg">
+                                <div class="center rating-score" id="rating"></div>
+                            </div>
+                            <div class="center primary-font-size" id="title"></div>
+                            <div id="url"></div>
+                        </div>
+                    </div>
+                </div> 
+                <a class="center margin" href="https://retoolapi.dev/RrRljN/casinos">Show all (1000+)</div>
+            </div>  
+        </div> 
+        <script src="index.js"></script>
+    </body>
+</html>
