@@ -1,4 +1,4 @@
-# Poker-news
+# Vanilla JS Poker
 
 ## Project setup
 ```
