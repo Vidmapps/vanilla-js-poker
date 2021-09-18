@@ -9,7 +9,7 @@ A skill test to make a website made on plain Javascript - no modules used.
 
 ### Usage
 
-* There you can browser most popular casinos from API.
+* There you can browse most popular casinos from API.
 
 ### In progress
 * Arrow button to scroll.
