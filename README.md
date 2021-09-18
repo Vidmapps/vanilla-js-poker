@@ -5,7 +5,7 @@
 
 ## About The Project
 
-A skill test to make a website made on plain Javascript - no modules used.
+A skill test to make a website made on a plain Javascript - no modules used.
 
 ### Usage
 
