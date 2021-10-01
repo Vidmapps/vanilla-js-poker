@@ -17,6 +17,7 @@ A skill test to make a website made on a plain Javascript - no modules used.
 ### Installation
 
 * npm start
+* node server
 
 
 ### Built With
